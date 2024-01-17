@@ -1,4 +1,3 @@
----
 include:
   - project: systemsmystery/ci-includes
     file:
