@@ -1,9 +1,10 @@
+---
 include:
   - project: systemsmystery/ci-includes
     file:
       - yamllint.yml
       - semantic-release.yml
-  - template: Terraform-Module..gitlab-ci.yml
+  - template: Terraform-Module.gitlab-ci.yml
 
 stages:
   - validate
